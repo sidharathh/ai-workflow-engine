@@ -19,7 +19,7 @@ export default function Dashboard() {
   const fetchWorkflows = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/workflows",
+        "https://ai-workflow-engine-hntb.onrender.com/api/workflows",
         {
           headers: { Authorization: `Bearer ${token}` },
         }
