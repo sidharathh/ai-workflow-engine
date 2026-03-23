@@ -30,6 +30,7 @@ A full-stack AI-powered workflow automation platform that allows users to create
 - JWT Authentication
 
 https://ai-workflow-engine-hntb.onrender.com - Render Deployed
+https://ai-workflow-engine-six.vercel.app/ - Vercel Deployed
 
 ### AI
 - Google Gemini API
