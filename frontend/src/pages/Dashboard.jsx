@@ -37,7 +37,7 @@ export default function Dashboard() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/workflows",
+        "https://ai-workflow-engine-hntb.onrender.com/api/workflows",
         {
           name,
           steps: [
@@ -67,7 +67,7 @@ export default function Dashboard() {
 
     try {
       const res = await axios.post(
-        `http://localhost:5000/api/workflows/${id}/execute`,
+        `https://ai-workflow-engine-hntb.onrender.com/api/workflows/${id}/execute`,
         { input },
         {
           headers: { Authorization: `Bearer ${token}` },
